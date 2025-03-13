@@ -11,9 +11,9 @@
 ```python
 pan.file.upload(parent_file_id, file_path)
 ```
-- parent_file_id
+- `parent_file_id`
     - 文件上传到哪个目录下
-- file_path
+- `file_path`
     - 要上传的文件的路径
 
 #### 手动上传
@@ -34,9 +34,9 @@ pan.file.upload(parent_file_id, file_path)
 pan.file.mkdir(name, parent_id)
 ```
 
-- name
+- `name`
     - 文件夹名
-- parent_id
+- `parent_id`
     - 父目录id，上传到根目录时填写 0
 
 ### 重命名文件
@@ -45,7 +45,7 @@ pan.file.mkdir(name, parent_id)
 pan.file.rename(rename_dict)
 ```
 
-- rename_dict
+- `rename_dict`
     - 文件重命名字典，格式为 `{文件ID: 新文件名}`
 
 ### 移动文件
@@ -54,9 +54,9 @@ pan.file.rename(rename_dict)
 pan.file.move(file_id_list, to_parent_file_id)
 ```
 
-- file_id_list
+- `file_id_list`
     - 要移动的文件ID列表
-- to_parent_file_id
+- `to_parent_file_id`
     - 移动到的目标文件夹ID
 
 ### 删除文件至回收站
@@ -65,7 +65,7 @@ pan.file.move(file_id_list, to_parent_file_id)
 pan.file.trash(file_ids)
 ```
 
-- file_ids
+- `file_ids`
     - 要删除的文件ID列表
 
 ### 从回收站恢复文件
@@ -74,21 +74,21 @@ pan.file.trash(file_ids)
 pan.file.recover(file_ids)
 ```
 
-- file_ids
+- `file_ids`
     - 要恢复的文件ID列表
 
 ### 彻底删除文件
 ```python
 pan.file.delete(file_ids)
 ```
-- file_ids
+- `file_ids`
     - 要彻底删除的文件ID列表，文件必须在回收站中
 
 ### 获取文件详情
 ```python
 pan.file.detail(file_id)
 ```
-- file_id
+- `file_id`
     - 要获取详情的文件ID
 
 ### 获取文件列表
@@ -97,14 +97,14 @@ pan.file.detail(file_id)
 pan.file.list(parent_file_id, limit, search_data, search_mode, last_file_id)
 ```
 
-- parent_file_id
+- `parent_file_id`
     - 父文件夹ID，根目录传 0
-- limit
+- `limit`
     - 每页文件数量，最大不超过100
-- search_data (可选)
+- `search_data` (可选)
     - 搜索关键字，将无视文件夹ID参数。将会进行全局查找
-- search_mode (可选)
+- `search_mode` (可选)
     - 0:全文模糊搜索(注:将会根据搜索项分词,查找出相似的匹配项)  
     - 1:精准搜索(注:精准搜索需要提供完整的文件名)
-- last_file_id
+- `last_file_id` (可选)
     - 翻页查询时需要填写，最后一个文件的ID
