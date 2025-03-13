@@ -5,11 +5,23 @@
          <lastmod>2025-03-13</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/direct_link/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/file/</loc>
          <lastmod>2025-03-13</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/offline_download/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/share/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/user/</loc>
          <lastmod>2025-03-13</lastmod>
     </url>
 </urlset>
