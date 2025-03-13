@@ -4,3 +4,4 @@ theme:
   name: material
 markdown_extensions:
   - extra
+site_url: https://mydomain.org/mys
