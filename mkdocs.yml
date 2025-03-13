@@ -1,5 +1,5 @@
 site_name: Pan123 Docs
-repo_url: https://github.com/SodaCodeSave/Pan123-Docs
+repo_url: https://github.com/SodaCodeSave/Pan123
 theme:
   name: material
 markdown_extensions:
