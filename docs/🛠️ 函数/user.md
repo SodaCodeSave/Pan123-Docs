@@ -1,11 +1,67 @@
-# 🗃️ 用户管理
+# 👤 用户管理
 
-> 通过 获取用户信息 函数可以快速获取账号的信息
+用户管理功能可以获取当前账户的基本信息。
 
-## 🛠️ 函数
-### 获取用户信息
+## 📋 功能概览
+
+- **获取用户信息** - 获取当前账户的详细信息
+
+## 🚀 快速示例
 
 ```python
-pan.user.info()
+from pan123 import Pan123
+
+# 初始化客户端
+pan = Pan123("your_access_token")
+
+# 获取用户信息
+user_info = pan.user.info()
+print(f"用户名: {user_info['data']['userName']}")
+print(f"用户ID: {user_info['data']['userID']}")
+print(f"存储空间: {user_info['data']['TotalCapacity']} bytes")
 ```
-> 经测试，在v0.1.3中无法使用该函数，正在努力修复中(┬┬﹏┬┬)
+
+## 🛠️ 详细功能
+
+### 获取用户信息
+
+获取当前认证账户的详细信息。
+
+```python
+result = pan.user.info()
+```
+
+**示例返回数据：**
+```json
+{
+  "data": {
+    "userID": 12345,
+    "userName": "example_user",
+    "email": "user@example.com",
+    "phone": "12345678901",
+    "TotalCapacity": 107374182400,
+    "UsedCapacity": 1073741824
+  },
+  "code": 0,
+  "message": "success"
+}
+```
+
+**返回值字段说明：**
+- `userID` - 用户唯一标识ID
+- `userName` - 用户名
+- `email` - 邮箱地址
+- `phone` - 手机号码
+- `TotalCapacity` - 总存储容量（字节）
+- `UsedCapacity` - 已使用存储容量（字节）
+
+## 📝 注意事项
+
+1. **权限要求**：需要有效的access_token才能获取用户信息。
+2. **数据准确性**：返回的用户信息是实时的，包含最新的存储使用情况。
+3. **隐私保护**：返回的个人信息仅限于账户相关基本信息，不包含敏感隐私数据。
+
+## 🔗 相关链接
+
+- [123云盘开放文档](https://123yunpan.yuque.com/org-wiki-123yunpan-muaork/cr6ced/uihb5w71iwqvi9dw)
+- [错误码参考](./errors.md)

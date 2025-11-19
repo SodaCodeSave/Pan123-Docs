@@ -1,7 +1,95 @@
-site_name: Pan123 Docs
+site_name: Pan123 文档
+site_description: Pan123 是123云盘开放平台的非官方Python封装库文档
+site_url: https://sodacodesave.github.io/Pan123-Docs/site/
 repo_url: https://github.com/SodaCodeSave/Pan123
+repo_name: SodaCodeSave/Pan123
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.tooltips
+
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 安装: installation.md
+    - 认证: authentication.md
+    - 基本用法: basic_usage.md
+  - 功能文档:
+    - 文件管理: "🛠️ 函数/file.md"
+    - 分享链接: "🛠️ 函数/share.md"
+    - 离线下载: "🛠️ 函数/offline_download.md"
+    - 直链获取: "🛠️ 函数/direct_link.md"
+    - 视频转码: "🛠️ 函数/transcode.md"
+    - 图床服务: "🛠️ 函数/oss.md"
+    - 用户管理: "🛠️ 函数/user.md"
+  - API参考: api_reference.md
+  - 错误码: error_codes.md
+  - 更新日志: changelog.md
+
 markdown_extensions:
   - extra
-site_url: https://mydomain.org/mys
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SodaCodeSave/Pan123
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/pan123/
+  consent:
+    title: Cookie同意
+    description: >-
+      我们使用cookies来识别您的重复访问和偏好，以及衡量我们文档的有效性。
+      在您的同意下，我们会将您的信息用于改善我们的文档。
+    actions:
+      - accept
+      - reject
+
+plugins:
+  - search
+  - social
+  - minify:
+      minify_html: true

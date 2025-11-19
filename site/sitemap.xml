@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mys/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/direct_link/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/api_reference/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/file/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/authentication/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/offline_download/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/basic_usage/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/oss/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/changelog/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/share/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/error_codes/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/transcode/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/installation/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mys/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/user/</loc>
-         <lastmod>2025-05-24</lastmod>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/direct_link/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/file/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/offline_download/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/oss/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/share/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/transcode/</loc>
+         <lastmod>2025-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sodacodesave.github.io/Pan123-Docs/site/%F0%9F%9B%A0%EF%B8%8F%20%E5%87%BD%E6%95%B0/user/</loc>
+         <lastmod>2025-11-19</lastmod>
     </url>
 </urlset>
